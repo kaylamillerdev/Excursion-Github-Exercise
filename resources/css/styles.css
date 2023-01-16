@@ -1,0 +1,19 @@
+body {
+    font-family: Verdana;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: underline;
+    color: aquamarine;
+    size: 16px;
+}
