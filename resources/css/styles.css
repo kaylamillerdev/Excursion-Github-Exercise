@@ -6,14 +6,47 @@ body {
     background-color: black;
     text-align: center;
 }
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 h1 {
     color: white;
     font-weight: normal;
     font-size: 50px;
 }
 
+h2 {
+    color: white;
+    font-weight: 300;
+    font-size: 42px;
+}
+
 a {
     text-decoration: underline;
     color: aquamarine;
     size: 16px;
+}
+
+p {
+    color: Gray;
+    font-family: Verdana,
+    font-size: 21px;
+}
+
+video {
+    height: 800px;
+}
+
+.camp-img {
+    width: 35%;
+}
+
+footer {
+    color: gray;
+    font-size: 21px;
+    text-align: right;
 }
